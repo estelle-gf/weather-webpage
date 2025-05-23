@@ -57,3 +57,21 @@ footer {
 main {
   padding: 30px 0;
 }
+
+.weather-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 50px;
+}
+
+.weather-description {
+  font-size: 20px;
+  line-height: 30px;
+}
+.weather-description strong {
+  font-size: 18px;
+  color: #000000;
+}
+.weather-temperature-container {
+  display: flex;
+}
