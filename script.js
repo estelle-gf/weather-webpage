@@ -15,5 +15,5 @@ function handleSearchSubmit(event) {
   searchCity(searchInput.value);
 }
 let searchFormElement = document.querySelector("#search-form");
-console.log(searchFormElement);
+
 searchFormElement.addEventListener("submit", handleSearchSubmit);
