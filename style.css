@@ -82,7 +82,7 @@ main {
 .weather-temperature-value {
   color: #000;
   font-size: 90px;
-  line-height: 100px;
+  line-height: 88px;
   margin-top: 50px;
 }
 .weather-unit {
@@ -90,5 +90,5 @@ main {
   line-height: 30px;
 }
 .weather-icon {
-  font-size: 44px;
+  line-height: 30px;
 }
