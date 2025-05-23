@@ -12,21 +12,23 @@
   <body>
     <div class="weather-app">
       <header>
-        <div class="weather-form-
-        container"><form class="search-form">
-          <input
-            type="search"
-            placeholder="Please enter a city . . ."
-            required
-            class="search-form-input"
-          />
-          <input type="submit" value="Search" class="search-form-button" />
-        </div> </form>
+        <div class="weather-form- container">
+          <form class="search-form" id="search-form">
+            <input
+              type="search"
+              placeholder="Please enter a city . . ."
+              required
+              id="search-input"
+              class="search-form-input"
+            />
+            <input type="submit" value="Search" class="search-form-button" />
+          </form>
+        </div>
       </header>
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-city">London</h1>
+            <h1 class="weather-city" id="city">London</h1>
             <p class="weather-description">
               Thursday <strong>17:39</strong> cloudy
               <br />
