@@ -60,7 +60,7 @@ main {
 
 .weather-city {
   margin: 0;
-  font-size: 38px;
+  font-size: 50px;
   line-height: 50px;
 }
 
@@ -69,9 +69,19 @@ main {
   line-height: 30px;
 }
 .weather-description strong {
-  font-size: 18px;
   color: #000000;
 }
 .weather-temperature-container {
   display: flex;
+  align-items: center;
+}
+.weather-temperature-value {
+  color: #000;
+  font-size: 80px;
+  line-height: 100px;
+  margin-top: 100px;
+}
+.weather-unit {
+  font-size: 20px;
+  line-height: 30px;
 }
