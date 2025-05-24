@@ -95,11 +95,16 @@ main {
 }
 .weather-forecast {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 30px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
+}
+.weather-forecast-day {
+  flex: 1 1 100px;
+  min-width: 100px;
 }
 .weather-forecast-date {
   text-align: center;
