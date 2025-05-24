@@ -115,10 +115,10 @@ main {
   line-height: 30px;
 }
 .weather-forecast-icon {
-  text-align: center;
-
-  font-size: 40px;
-  line-height: 40px;
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+  height: 80px;
 }
 .weather-forecast-temperatures {
   display: flex;
