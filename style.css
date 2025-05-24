@@ -59,6 +59,7 @@ footer {
   justify-content: space-between;
 }
 main {
+  overflow: hidden;
   padding: 30px 0;
 }
 
